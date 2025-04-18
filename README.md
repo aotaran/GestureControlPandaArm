@@ -1,10 +1,10 @@
- # 🖐️ Gesture-Controlled panda arm with ROS2 Humble
+ # 🖐️ Gesture-Controlled Panda Arm with ROS2 Humble
 
 This ROS2 package allows you to control a panda arm using **hand gestures** via a webcam.
 
 ## 📌 Features
 - Uses **MediaPipe Hands** for real-time gesture recognition.
-- Controls two turtles in `turtlesim` based on hand gestures.
+- Controls a panda arm based on hand gestures.
 - A **single launch file** starts everything (Turtlesim, Spawning, Gesture Control).
 
 ---
