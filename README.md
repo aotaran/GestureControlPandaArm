@@ -5,7 +5,6 @@ This ROS2 package allows you to control a panda arm using **hand gestures** via 
 ## 📌 Features
 - Uses **MediaPipe Hands** for real-time gesture recognition.
 - Controls a panda arm based on hand gestures.
-- A **single launch file** starts everything (Turtlesim, Spawning, Gesture Control).
 
 ---
 
