@@ -10,7 +10,7 @@ This ROS2 package allows you to control a panda arm using **hand gestures** via 
 
 ## 🛠️ Installation & Setup
 ### 1️⃣ Install ROS2 Humble & Dependencies
-Ensure you have **ROS2 Humble** installed, franka and moveit2 packages cloned 
+Ensure you have ROS2 Humble and franka_ros installed, and moveit2 packages cloned 
 ```bash
 sudo apt update
 git clone https://github.com/moveit/moveit2.git -b $ROS_DISTRO
@@ -30,6 +30,8 @@ git clone https://github.com/aotaran/GestureControlPandaArm.git
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
+source ~/ws_moveit2/install/setup.bash
+
 ```
 
 ---
